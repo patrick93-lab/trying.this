@@ -11,6 +11,7 @@ GIT_WORK_TREE environment variable and the core.worktree configuration variable 
 Running Git commands in the "/path/to" directory will still use "/different/path" as the root of the work
     tree and can cause confusion unless you know what you are doing 
     
+#### this here for snapshots if index'
         (e.g. you are creating a read-only snapshot of the same index to
             a location different from the repository’s usual working tree).
 
