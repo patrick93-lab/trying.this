@@ -23,5 +23,5 @@ core.worktree variable in Git is used to define the location of the working tree
 # if git does not know the working tree do: 
 $ git config --global core.worktree /path/to/your/project
  
-![alt text](/workspaces/trying.this/david_fire_ducky_harvard.png "Title")
+![alt text](david_fire_ducky_harvard.png "Title")
 
