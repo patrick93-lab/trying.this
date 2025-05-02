@@ -1,3 +1,4 @@
+// checks the storage quota in the browser
 const estimate = navigator.storage.estimate();
 
 estimate.then(({ usage, quota }) => {

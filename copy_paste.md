@@ -25,3 +25,19 @@ $ git config --global core.worktree /path/to/your/project
  
 ![alt text](david_fire_ducky_harvard.png "Title")
 
+
+# <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const allowBtn = document.getElementById('allowNotifications');
+        const blockBtn = document.getElementById('blockNotifications');
+
+        allowBtn.addEventListener('click', () => {
+            chrome.runtime.sendMessage({ action: "toggleNotifications", decision: "allow" });
+            document.getElementById('customNotification').style.display = 'none';
+        });
+
+        blockBtn.addEventListener('click', () => {
+            chrome.runtime.sendMessage({ action: "toggleNotifications", decision: "block" });
+            document.getElementById('customNotification').style.display = 'none';
+        });
+    })
