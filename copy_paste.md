@@ -16,6 +16,10 @@ Running Git commands in the "/path/to" directory will still use "/different/path
             a location different from the repository’s usual working tree).
 
 
+
+
+
+# This is the Extension -👇here...
 # run: 
 $ git rev-parse --is-bare-repository to check if your repository is bare.
 core.worktree variable in Git is used to define the location of the working tree 
